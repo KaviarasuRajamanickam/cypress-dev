@@ -1,0 +1,93 @@
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  padding: 30px;
+  background: #f7f7f7;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+ul li + li {
+  margin-top: 10px;
+}
+.underlinedList li {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-top: 0;
+  padding-left: 10px;
+}
+.underlinedList li.clicked {
+  background-color: #eeeeee;
+}
+.underlinedList li + li {
+  border-top: 1px solid #dddddd
+}
+.underlinedList li.mouseover {
+  background-color: #f7f7f7;
+}
+.checkRadio ul {
+  display: inline-block;
+  width: 50%;
+}
+select {
+  padding: 10px;
+  width: 200px;
+  margin-top: 15px;
+}
+select + select {
+  margin-left: 15px;
+}
+select[disabled] {
+  opacity: 0.5;
+}
+nav a {
+  background-color: cornflowerblue;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+nav a + a {
+  margin-left: 20px;
+}
+.section {
+  padding: 20px;
+  background: #ffffff;
+  max-width: 500px;
+  display: block;
+  margin: auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.015);
+}
+.section + .section {
+  margin-top: 50px;
+}
+.section h2 {
+  margin-top: 0;
+}
+.selectedItem, .legend {
+  display: block;
+  margin-bottom: 5px;
+}
+.selectedItem span {
+  font-weight: bold;
+}
+.checkRadio .selectedItem {
+  width: 50%;
+  display: inline-block;
+}
+.charInputForm label, .charInputForm label input {
+  display: block;
+}
+.charInputForm label input {
+  max-width: 300px;
+  width: 300px;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+} 
+.charInputForm label em {
+  font-style: normal;
+} 
