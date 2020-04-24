@@ -1,5 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+<<<<<<< HEAD
 ## Available Scripts
 
 In the project directory, you can run:
@@ -66,3 +67,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======
+The application is developed in React js
+
+Download the testing files from below to test the UI
+https://github.com/KaviarasuRajamanickam/cypress-testing
+>>>>>>> 06806b431c77c33999a2a8aaa5c21805f30a8eae
