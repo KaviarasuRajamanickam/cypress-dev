@@ -7,10 +7,10 @@ A simple application developed in react to test the UI with Cypress.
 - Developed a simple text box with characters remaining notification
 - Included different type of events like click, mouseover.,
 - Developed UI elements 
-    -Input box
-    -Select dropdown
-    -Check button
-    -Radio button
+    - Input box
+    - Select dropdown
+    - Check button
+    - Radio button
 
 ## Getting Started
 
