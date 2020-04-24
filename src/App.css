@@ -53,6 +53,9 @@ nav a {
 nav a + a {
   margin-left: 20px;
 }
+nav a.active {
+  background-color: #496eaf;
+}
 .section {
   padding: 20px;
   background: #ffffff;
