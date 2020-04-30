@@ -8,6 +8,7 @@ A simple application developed in react to test the UI with Cypress.
 - Developed a CRUD form using redux
 - Included different type of events like click, mouseover.,
 - Developed UI elements 
+
     - Input box
     - Select dropdown
     - Check button
