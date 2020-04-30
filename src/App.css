@@ -1,7 +1,6 @@
 *,*::before,*::after {
   box-sizing: border-box;
 }
-
 body {
   font-size: 14px;
   padding: 30px;
@@ -13,6 +12,162 @@ ul {
 }
 ul li + li {
   margin-top: 10px;
+}
+.text-right {text-align: right;}
+.text-left {text-align: left;}
+.text-center {text-align: center;}
+.error {
+  color: #f44336;
+  font-size: 12px;
+}
+.error.form-input input,
+.error.form-input select {
+  border: 1px solid #f44336;
+}
+table {
+  border: 1px solid #dddddd;
+}
+th, td {
+  text-align: left;
+  padding: 10px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Example3 {
+  display: inline-block;
+  width: 100%;
+}
+.preview {
+  width: 500px;
+  display: inline-block;
+  margin-top: 50px;
+}
+.preview ul li {
+  width: 50%;
+  float: left;
+  border-bottom: 1px solid #eeeeee;
+  padding: 10px;
+  min-height: 42px;
+  font-weight: bold;
+}
+.preview ul li:nth-child(2n+1) {
+  clear: both;
+  font-weight: normal;
+}
+#tableData {
+  display: inline-block;
+  margin-top: 50px;
+  border-collapse: collapse;
+}
+.post_wrapper {
+  display: inline-block;
+  margin: 15px;
+}
+.post_wrapper {
+  border: 1px solid #eeeeee;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.15);
+  display: inline-block;
+  padding: 15px;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.modal .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.25);
+}
+.modal .modal-dialogue {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  z-index: 9;
+  background: #ffffff;
+  width: 350px;
+    max-width: 100%;
+}
+.studentForm,.records {
+  display: inline-block;
+  float: left;
+}
+.studentForm {
+  width: 30%;
+  padding-right: 20px;
+}
+.records {
+  width: calc(70% - 30px);
+}
+.records table {
+  border: 0;
+  width: 100%;
+  border-collapse: collapse;
+}
+.records table tr th {
+  border-bottom: 1px solid #dddddd;
+  background: #eee;
+}
+.records table tr td {
+  border-bottom: 1px solid #dddddd;
+}
+.studentForm h2 {
+  margin-top: 0;
+}
+.form-input + .form-input {
+  margin-top: 10px;
+}
+.form-input input, .form-input select {
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  margin-top: 0;
+  padding: 10px;
+  width: 100%;
+}
+.btn {
+  border: 0;
+  background: transparent;
+  padding: 10px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.btn-default {
+  background-color: #3f51b5;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.btn-delete {
+  background-color: #f44336;
+  margin-right: 10px;
+}
+.notification {
+  position: fixed;
+  background: #3f51b5;
+  padding: 15px 25px;
+  border-radius: 5px;
+  color: #fff;
+  margin: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -30px;
+  opacity: 0;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  transition: bottom ease-in-out 0.5s, opacity ease-in-out 0.5s;
+}
+.notification.open {
+  bottom: 30px;
+  opacity: 1;
 }
 .underlinedList li {
   padding-top: 5px;
@@ -94,3 +249,8 @@ nav a.active {
 .charInputForm label em {
   font-style: normal;
 } 
+.records.section {
+  margin-top: 0;
+  max-width: none;
+  margin-left: 30px;
+}
