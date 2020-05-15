@@ -5,6 +5,7 @@ import Home from './Home';
 import Example1 from './Example1';
 import Example2 from './Example2';
 import Example3 from './Example3';
+import Example4 from './Example4';
 import Navigation from './Navigation';
 
 class App extends Component {
@@ -20,7 +21,8 @@ class App extends Component {
     console.log(target)
     target === 'example1' ? this.history.push('/example1') :
     target === 'example2' ? this.history.push('/example2') : 
-    this.history.push('/example3')
+    target === 'example3' ? this.history.push('/example3') : 
+    this.history.push('/example4')
   }
   render(){
     return (
@@ -39,6 +41,9 @@ class App extends Component {
               </Route>
               <Route exact path="/example3">
                 <Example3/>
+              </Route>
+              <Route exact path="/example4">
+                <Example4/>
               </Route>
             </Switch>
           </div>

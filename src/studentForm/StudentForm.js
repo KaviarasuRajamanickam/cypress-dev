@@ -61,7 +61,6 @@ class StudentForm extends Component {
         this.getClass.value = '';
         this.getSection.value = '';
         this.getGender.value = '';
-        
     }
 
     checkField = (e) => {

@@ -35,7 +35,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.Example3 {
+.Example3, .Example4 {
   display: inline-block;
   width: 100%;
 }
@@ -98,15 +98,19 @@ code {
   width: 350px;
     max-width: 100%;
 }
-.studentForm,.records {
+.modal h3 {
+  margin-top: 0;
+}
+.studentForm,.records,
+.add-new-post,.all-posts {
   display: inline-block;
   float: left;
 }
-.studentForm {
+.studentForm, .add-new-post {
   width: 30%;
   padding-right: 20px;
 }
-.records {
+.records,.all-posts {
   width: calc(70% - 30px);
 }
 .records table {
@@ -127,13 +131,16 @@ code {
 .form-input + .form-input {
   margin-top: 10px;
 }
-.form-input input, .form-input select {
+.form-input input, .form-input select, .form-input textarea {
   border: 1px solid #dddddd;
   border-radius: 3px;
   margin-bottom: 5px;
   margin-top: 0;
   padding: 10px;
   width: 100%;
+}
+.form-input textarea {
+  min-height: 100px;
 }
 .btn {
   border: 0;
@@ -249,8 +256,15 @@ nav a.active {
 .charInputForm label em {
   font-style: normal;
 } 
-.records.section {
+.records.section, .all-posts.section {
   margin-top: 0;
   max-width: none;
   margin-left: 30px;
+}
+.postWrapper + .postWrapper {
+  margin-top: 20px;
+  border-top: 1px solid #eeeeee;
+}
+.post h3 {
+  color: #3f51b5;
 }
