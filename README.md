@@ -6,6 +6,7 @@ A simple application developed in react to test the UI with Cypress.
 - A simple navigation using react router
 - Developed a simple text box with characters remaining notification
 - Developed a CRUD form using redux
+- Developed a Post creation using redux
 - Included different type of events like click, mouseover.,
 - Developed UI elements 
 
