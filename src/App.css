@@ -268,3 +268,26 @@ nav a.active {
 .post h3 {
   color: #3f51b5;
 }
+
+#output:not(:empty) {
+  background: #eee;
+  margin-top: 15px;
+  padding: 10px 15px;
+  color: #333;
+}
+
+.checkString label {
+  display: grid;
+  grid-template-columns: 1fr 140px;
+  align-items: baseline;
+}
+
+#output.error {
+  background-color: #fb2a2a;
+  color: #fff;
+}
+
+#output.success {
+  background-color: #00c121;
+  color: #fff;
+}

@@ -13,6 +13,7 @@ class Example1 extends Component {
         let target = e.target.value
         this.setState({maxChar : 15 - target.length, inputName : target})
     }
+
     render(){
         return (
             <div className="section charInputForm">

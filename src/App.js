@@ -6,6 +6,7 @@ import Example1 from './Example1';
 import Example2 from './Example2';
 import Example3 from './Example3';
 import Example4 from './Example4';
+import Example5 from './Example5';
 import Navigation from './Navigation';
 
 class App extends Component {
@@ -44,6 +45,9 @@ class App extends Component {
               </Route>
               <Route exact path="/example4">
                 <Example4/>
+              </Route>
+              <Route exact path="/example5">
+                <Example5/>
               </Route>
             </Switch>
           </div>
