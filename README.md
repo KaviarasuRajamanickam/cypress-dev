@@ -8,6 +8,8 @@ A simple application developed in react to test the UI with Cypress.
 - Developed a CRUD form using redux
 - Developed a Post creation using redux
 - Included different type of events like click, mouseover.,
+- Function to remove unwanted whitespace from a entered value
+- Function to check the entered value is palindrome or not
 - Developed UI elements 
 
     - Input box
